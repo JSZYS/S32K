@@ -1,0 +1,9 @@
+.\objects\system_s32k144.o: RTE\Device\S32K144HAxxxLLx\system_S32K144.c
+.\objects\system_s32k144.o: .\include\device_registers.h
+.\objects\system_s32k144.o: .\include\s32_core_cm4.h
+.\objects\system_s32k144.o: .\include\S32K144.h
+.\objects\system_s32k144.o: E:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_s32k144.o: .\include\S32K144_features.h
+.\objects\system_s32k144.o: .\include\devassert.h
+.\objects\system_s32k144.o: E:\Keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\system_s32k144.o: RTE\Device\S32K144HAxxxLLx\system_S32K144.h

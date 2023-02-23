@@ -1,0 +1,38 @@
+Dependencies for Project 'LED', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup\startup_S32K144.s)(0x61B1B2E7)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\Device\S32K144HAxxxLLx-I.\RTE\_Target_1-IE:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil5\ARM\PACK\Keil\S32_SDK_DFP\1.5.0\platform\devices-IE:\Keil5\ARM\PACK\Keil\S32_SDK_DFP\1.5.0\platform\devices\common--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1" --pd "CPU_S32K144HFT0VLLT SETA 1"--list .\listings\startup_s32k144.lst --xref -o .\objects\startup_s32k144.o --depend .\objects\startup_s32k144.d)
+F (.\src\clocks_and_modes.c)(0x625EE816)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\include-I.\RTE\Device\S32K144HAxxxLLx-I.\RTE\_Target_1-IE:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil5\ARM\PACK\Keil\S32_SDK_DFP\1.5.0\platform\devices-IE:\Keil5\ARM\PACK\Keil\S32_SDK_DFP\1.5.0\platform\devices\common-D__UVISION_VERSION="525" -D_RTE_ -DCPU_S32K144HFT0VLLT -DCPU_S32K144HFT0VLLT -DENABLE_FPU -D_DLIB_FILE_DESCRIPTOR-o .\objects\clocks_and_modes.o --omf_browse .\objects\clocks_and_modes.crf --depend .\objects\clocks_and_modes.d)
+I (.\include\S32K144.h)(0x625EE816)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\include\clocks_and_modes.h)(0x625EE816)
+F (.\src\main.c)(0x63AA9719)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\include-I.\RTE\Device\S32K144HAxxxLLx-I.\RTE\_Target_1-IE:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil5\ARM\PACK\Keil\S32_SDK_DFP\1.5.0\platform\devices-IE:\Keil5\ARM\PACK\Keil\S32_SDK_DFP\1.5.0\platform\devices\common-D__UVISION_VERSION="525" -D_RTE_ -DCPU_S32K144HFT0VLLT -DCPU_S32K144HFT0VLLT -DENABLE_FPU -D_DLIB_FILE_DESCRIPTOR-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\include\S32K144.h)(0x625EE816)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\include\clocks_and_modes.h)(0x625EE816)
+F (.\include\clocks_and_modes.h)(0x625EE816)()
+F (.\include\devassert.h)(0x625EE816)()
+F (.\include\device_registers.h)(0x625EE816)()
+F (.\include\LPUART.h)(0x625EE816)()
+F (.\include\s32_core_cm4.h)(0x625EE816)()
+F (.\include\S32K144.h)(0x625EE816)()
+F (.\include\S32K144_features.h)(0x625EE816)()
+F (.\include\startup.h)(0x625EE816)()
+F (.\include\system_S32K144.h)(0x625EE816)()
+F (E:\Keil5\ARM\PACK\Keil\S32_SDK_DFP\1.5.0\platform\devices\startup.c)(0x5A3B53E6)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\include-I.\RTE\Device\S32K144HAxxxLLx-I.\RTE\_Target_1-IE:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil5\ARM\PACK\Keil\S32_SDK_DFP\1.5.0\platform\devices-IE:\Keil5\ARM\PACK\Keil\S32_SDK_DFP\1.5.0\platform\devices\common-D__UVISION_VERSION="525" -D_RTE_ -DCPU_S32K144HFT0VLLT -DCPU_S32K144HFT0VLLT -DENABLE_FPU -D_DLIB_FILE_DESCRIPTOR-o .\objects\startup.o --omf_browse .\objects\startup.crf --depend .\objects\startup.d)
+I (E:\Keil5\ARM\PACK\Keil\S32_SDK_DFP\1.5.0\platform\devices\startup.h)(0x5CB560C0)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (E:\Keil5\ARM\PACK\Keil\S32_SDK_DFP\1.5.0\platform\devices\device_registers.h)(0x5CB560C0)
+I (E:\Keil5\ARM\PACK\Keil\S32_SDK_DFP\1.5.0\platform\devices\common\s32_core_cm4.h)(0x5CB560C0)
+I (E:\Keil5\ARM\PACK\Keil\S32_SDK_DFP\1.5.0\platform\devices\S32K144\include\S32K144.h)(0x5CB560C0)
+I (E:\Keil5\ARM\PACK\Keil\S32_SDK_DFP\1.5.0\platform\devices\S32K144\include\S32K144_features.h)(0x5CB560C0)
+I (E:\Keil5\ARM\PACK\Keil\S32_SDK_DFP\1.5.0\platform\devices\devassert.h)(0x5CB560C0)
+I (E:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+F (RTE\Device\S32K144HAxxxLLx\system_S32K144.c)(0x5CB560C0)(--c99 --gnu -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\include-I.\RTE\Device\S32K144HAxxxLLx-I.\RTE\_Target_1-IE:\Keil5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IE:\Keil5\ARM\PACK\Keil\S32_SDK_DFP\1.5.0\platform\devices-IE:\Keil5\ARM\PACK\Keil\S32_SDK_DFP\1.5.0\platform\devices\common-D__UVISION_VERSION="525" -D_RTE_ -DCPU_S32K144HFT0VLLT -DCPU_S32K144HFT0VLLT -DENABLE_FPU -D_DLIB_FILE_DESCRIPTOR-o .\objects\system_s32k144.o --omf_browse .\objects\system_s32k144.crf --depend .\objects\system_s32k144.d)
+I (.\include\device_registers.h)(0x625EE816)
+I (.\include\s32_core_cm4.h)(0x625EE816)
+I (.\include\S32K144.h)(0x625EE816)
+I (E:\Keil5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (.\include\S32K144_features.h)(0x625EE816)
+I (.\include\devassert.h)(0x625EE816)
+I (E:\Keil5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (RTE\Device\S32K144HAxxxLLx\system_S32K144.h)(0x5CB560C0)
+F (RTE\Device\S32K144HAxxxLLx\system_S32K144.h)(0x5CB560C0)()
